@@ -19,11 +19,10 @@ const Home = () => {
                         className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-white focus:text-white"
                     >
                         <h3 className="text-2xl font-bold">
-                            Documentation &rarr;
+                            More Information &rarr;
                         </h3>
                         <p className="mt-4 text-xl">
-                            Find in-depth information about Next.js features and
-                            API.
+                            Click here for more information about the server.
                         </p>
                     </a>
 
@@ -31,21 +30,23 @@ const Home = () => {
                         href="https://nextjs.org/learn"
                         className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-white focus:text-white"
                     >
-                        <h3 className="text-2xl font-bold">Learn &rarr;</h3>
+                        <h3 className="text-2xl font-bold">
+                            Join / Connect to Server &rarr;
+                        </h3>
                         <p className="mt-4 text-xl">
-                            Learn about Next.js in an interactive course with
-                            quizzes!
+                            Click here for IP Address and Port.
                         </p>
+                        <br />
                     </a>
 
                     <a
                         href="https://github.com/vercel/next.js/tree/canary/examples"
                         className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-white focus:text-white"
                     >
-                        <h3 className="text-2xl font-bold">Examples &rarr;</h3>
+                        <h3 className="text-2xl font-bold">Tutorials &rarr;</h3>
                         <p className="mt-4 text-xl">
-                            Discover and deploy boilerplate example Next.js
-                            projects.
+                            Click here to see how the plugins in the server
+                            work.
                         </p>
                     </a>
 
@@ -53,11 +54,13 @@ const Home = () => {
                         href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
                         className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-white focus:text-white"
                     >
-                        <h3 className="text-2xl font-bold">Deploy &rarr;</h3>
+                        <h3 className="text-2xl font-bold">
+                            Contact Us &rarr;
+                        </h3>
                         <p className="mt-4 text-xl">
-                            Instantly deploy your Next.js site to a public URL
-                            with Vercel.
+                            Click here for more support.
                         </p>
+                        <br />
                     </a>
                 </div>
             </main>
