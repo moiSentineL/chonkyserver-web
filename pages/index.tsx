@@ -4,18 +4,18 @@ const Home = () => {
     return (
         <div className="flex min-h-screen flex-col items-center justify-center bg-[#2C2F33] py-2 text-gray-300">
             <Head>
-                <title>Chonky Server</title>
+                <title>ChonkyServer</title>
                 <link rel="icon" href="/favicon.png" />
             </Head>
 
             <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">
                 <h1 className="mt-5 text-3xl font-bold sm:text-4xl lg:-mt-5 lg:text-6xl">
-                    Welcome to Chonky Server
+                    Welcome to ChonkyServer
                 </h1>
 
                 <div className="mt-6 flex max-w-4xl flex-wrap items-center justify-around sm:w-full">
                     <a
-                        href="https://nextjs.org/docs"
+                        href="/more-info"
                         className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-white focus:text-white"
                     >
                         <h3 className="text-2xl font-bold">
@@ -27,7 +27,7 @@ const Home = () => {
                     </a>
 
                     <a
-                        href="https://nextjs.org/learn"
+                        href="/connections"
                         className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-white focus:text-white"
                     >
                         <h3 className="text-2xl font-bold">
@@ -40,7 +40,7 @@ const Home = () => {
                     </a>
 
                     <a
-                        href="https://github.com/vercel/next.js/tree/canary/examples"
+                        href="/tutorials"
                         className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-white focus:text-white"
                     >
                         <h3 className="text-2xl font-bold">Tutorials &rarr;</h3>
@@ -51,7 +51,7 @@ const Home = () => {
                     </a>
 
                     <a
-                        href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+                        href="/contact"
                         className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-white focus:text-white"
                     >
                         <h3 className="text-2xl font-bold">
