@@ -14,20 +14,20 @@ const Connections = () => {
                     Connections
                 </h1>
 
-                <div className="mt-10 space-y-4 font-semibold text-white md:text-lg">
-                    <p className="">Connecting to the server.</p>
+                <div className="mt-10 space-y-4 font-semibold text-white">
+                    <p className="text-2xl">Connecting to the server.</p>
                     <div className="">
-                        <p className="">Java Edition</p>
-                        <p className="">
+                        <p className="text-2xl">Java Edition</p>
+                        <p className="text-base">
                             Use IP Address{" "}
                             <code className="">play.chonkyserver.tk</code> to
                             connect to ChonkyServer.
                         </p>
                     </div>
                     <div className="">
-                        <p className="">Bedrock Edition</p>
-                        <p className="">For Minecraft Pocket Edition</p>
-                        <p className="">
+                        <p className="text-2xl">Bedrock Edition</p>
+                        <p className="text-lg">For Minecraft Pocket Edition</p>
+                        <p className="text-base">
                             To add to your servers,{" "}
                             <a
                                 href="minecraft://?addExternalServer=ChonkyServer|play.chonkyserver.tk:19132"
@@ -38,8 +38,8 @@ const Connections = () => {
                         </p>
                     </div>
                     <div className="">
-                        <p className="">Manual Server Adding:</p>
-                        <p className="">
+                        <p className="text-lg">Manual Server Adding:</p>
+                        <p className="text-base">
                             Use IP Address{" "}
                             <code className="">play.chonkyserver.tk</code> and
                             Port <code className="">19132</code> to connect to
