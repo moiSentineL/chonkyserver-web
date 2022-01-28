@@ -3,18 +3,55 @@ import React from "react";
 
 const Connections = () => {
     return (
-        <div className="flex min-h-screen flex-col items-center justify-center bg-[#2C2F33] py-2 text-gray-300">
+        <div className="flex min-h-screen flex-col items-center bg-[#2C2F33] py-2 text-gray-300">
             <Head>
                 <title>ChonkyServer | Connections</title>
                 <link rel="icon" href="/favicon.png" />
             </Head>
 
-            <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">
-                <h1 className="mt-5 text-3xl font-bold sm:text-4xl lg:-mt-5 lg:text-6xl">
+            <main className="mx-auto flex w-full flex-1 flex-col justify-center p-5 md:max-w-3xl lg:max-w-6xl">
+                <h1 className="mt-5 text-center text-3xl font-bold sm:text-4xl lg:-mt-5 lg:text-6xl">
                     Connections
                 </h1>
 
-                <div className=""></div>
+                <div className="mt-10 space-y-4 font-semibold text-white md:text-lg">
+                    <p className="">Connecting to the server.</p>
+                    <div className="">
+                        <p className="">Java Edition</p>
+                        <p className="">
+                            Use IP Address{" "}
+                            <code className="">play.chonkyserver.tk</code> to
+                            connect to ChonkyServer.
+                        </p>
+                    </div>
+                    <div className="">
+                        <p className="">Bedrock Edition</p>
+                        <p className="">For Minecraft Pocket Edition</p>
+                        <p className="">
+                            To add to your servers,{" "}
+                            <a
+                                href="minecraft://?addExternalServer=ChonkyServer|play.chonkyserver.tk:19132"
+                                className="hover:text-blue-500 hover:underline"
+                            >
+                                click here
+                            </a>
+                        </p>
+                    </div>
+                    <div className="">
+                        <p className="">Manual Server Adding:</p>
+                        <p className="">
+                            Use IP Address{" "}
+                            <code className="">play.chonkyserver.tk</code> and
+                            Port <code className="">19132</code> to connect to
+                            ChonkyServer.
+                        </p>
+                    </div>
+
+                    <p className="">
+                        For more support, or reporting any errors, please
+                        contact us.
+                    </p>
+                </div>
             </main>
             <footer className="mt-10 flex h-24 w-full items-center justify-center border-t lg:mt-0">
                 <a
