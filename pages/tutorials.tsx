@@ -14,8 +14,8 @@ const Tutorials = () => {
                     Tutorials
                 </h1>
 
-                <div className="mt-10 space-y-4 font-semibold text-white md:text-lg">
-                    <p className="">In-Game Economy #Heading</p>
+                <div className="mt-10 space-y-4 text-base font-semibold text-white">
+                    <p className="text-2xl">In-Game Economy</p>
                     <div className="">
                         <p className="">
                             The game has a built-in economy (money money money).
@@ -46,10 +46,10 @@ const Tutorials = () => {
                     </div>
 
                     <div className="space-y-2">
-                        <p className="">Plugin Tutorials #Heading</p>
-                        <div className="ml-3 space-y-2">
-                            <p className="">Better RTP #SubHeading</p>
-                            <div className="ml-2 space-y-2">
+                        <p className="text-2xl">Plugin Tutorials</p>
+                        <div className="space-y-2">
+                            <p className="text-lg">Better RTP</p>
+                            <div className="space-y-2">
                                 <p className="">
                                     Better RTP is a plugin that teleports you
                                     randomly to a place. This might be useful to
@@ -98,8 +98,8 @@ const Tutorials = () => {
                                 </div>
                             </div>
 
-                            <p className="mt-2">UltimateClaims #SubHeading</p>
-                            <div className="ml-3 space-y-2">
+                            <p className="mt-2 text-lg">UltimateClaims</p>
+                            <div className="space-y-2">
                                 <p className="">
                                     UltimateClaims is a plugin in the server
                                     that helps you to claim your land to protect
@@ -140,8 +140,8 @@ const Tutorials = () => {
                                 </div>
                             </div>
 
-                            <p className="mt-2">EconomyShopGUI #SubHeading</p>
-                            <div className="ml-3 space-y-2">
+                            <p className="mt-2 text-lg">EconomyShopGUI</p>
+                            <div className="space-y-2">
                                 <p className="">
                                     This is plugin that allows you to sell and
                                     buy things using a GUI. It is pretty easy to
