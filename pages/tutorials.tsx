@@ -14,8 +14,8 @@ const Tutorials = () => {
                     Tutorials
                 </h1>
 
-                <div className="mt-10 space-y-4 text-base font-semibold text-white">
-                    <p className="text-2xl">In-Game Economy</p>
+                <div className="mt-10 space-y-4 text-lg font-semibold text-white">
+                    <p className="text-3xl">In-Game Economy</p>
                     <div className="">
                         <p className="">
                             The game has a built-in economy (money money money).
@@ -46,9 +46,9 @@ const Tutorials = () => {
                     </div>
 
                     <div className="space-y-2">
-                        <p className="text-2xl">Plugin Tutorials</p>
+                        <p className="pb-[15px] text-3xl">Plugin Tutorials</p>
                         <div className="space-y-2">
-                            <p className="text-lg">Better RTP</p>
+                            <p className="text-2xl">Better RTP</p>
                             <div className="space-y-2">
                                 <p className="">
                                     Better RTP is a plugin that teleports you
@@ -92,13 +92,13 @@ const Tutorials = () => {
                                     <div className="flex justify-center">
                                         <iframe
                                             src="https://www.youtube.com/embed/j-I-QDWXDv4"
-                                            className="mt-2 h-[315px] w-[420px] md:h-[560px] md:w-[940px]"
+                                            className="my-4 h-[315px] w-[420px] md:h-[560px] md:w-[940px]"
                                         ></iframe>
                                     </div>
                                 </div>
                             </div>
 
-                            <p className="mt-2 text-lg">UltimateClaims</p>
+                            <p className="mt-2 text-2xl">UltimateClaims</p>
                             <div className="space-y-2">
                                 <p className="">
                                     UltimateClaims is a plugin in the server
@@ -135,12 +135,12 @@ const Tutorials = () => {
                                 <div className="flex justify-center">
                                     <iframe
                                         src="https://www.youtube.com/embed/VgC6r33NiLA"
-                                        className="mt-2 h-[315px] w-[420px] md:h-[560px] md:w-[940px]"
+                                        className="my-4 h-[315px] w-[420px] md:h-[560px] md:w-[940px]"
                                     ></iframe>
                                 </div>
                             </div>
 
-                            <p className="mt-2 text-lg">EconomyShopGUI</p>
+                            <p className="mt-2 text-2xl">EconomyShopGUI</p>
                             <div className="space-y-2">
                                 <p className="">
                                     This is plugin that allows you to sell and
@@ -170,8 +170,82 @@ const Tutorials = () => {
                             <div className="flex justify-center">
                                 <iframe
                                     src="https://www.youtube.com/embed/3SuvE0ml3P0"
-                                    className="mt-2 h-[315px] w-[420px] md:h-[560px] md:w-[940px]"
+                                    className="my-4 h-[315px] w-[420px] md:h-[560px] md:w-[940px]"
                                 ></iframe>
+                            </div>
+                            <p className="pb-[15px] text-2xl">
+                                Teleporting Commands
+                            </p>
+                            <div className="mt-4">
+                                <div className="">
+                                    <div className="">
+                                        <p className="">
+                                            To teleport to other players, use
+                                            command /tpa to send them a request.
+                                        </p>
+                                        <p className="">
+                                            You can use /tpaccept to accept a
+                                            request.
+                                        </p>
+                                    </div>
+                                    <p className="">
+                                        Use <code className="">/tpahere</code>{" "}
+                                        to teleport a player to your location.
+                                    </p>
+                                    <p className="">
+                                        Similarly, you can toggle auto-accepting
+                                        request by using{" "}
+                                        <code className="">/tpauto</code>.
+                                    </p>
+                                </div>
+                            </div>
+                            <p className="py-[15px] text-2xl">
+                                Social Commands
+                            </p>
+                            <div className="mt-4">
+                                <div className="">
+                                    <div className="">
+                                        <p className="">
+                                            You can message other players
+                                            privately using{" "}
+                                            <code className="">/msg</code>
+                                        </p>
+                                        <p className="">
+                                            Reply to a recent message by{" "}
+                                            <code className="">/r</code>
+                                        </p>
+                                    </div>
+                                    <div className="">
+                                        <p className="">
+                                            Send mails to other players using{" "}
+                                            <code className="">/mail</code> send
+                                            so that they can read it next time
+                                            they come online.
+                                        </p>
+                                        <p className="">
+                                            Send mails to all players by{" "}
+                                            <code className="">/mail</code>{" "}
+                                            sendall .
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <p className="py-[15px] text-2xl">
+                                Other useful Commands
+                            </p>
+                            <div className="mt-4">
+                                <div className="">
+                                    <div>
+                                        <p>
+                                            You can use <code>/nick</code> : to
+                                            set a nickname for yourself.
+                                        </p>
+                                        <p>
+                                            And use <code>/sethome</code> to set
+                                            yourself a home.
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
