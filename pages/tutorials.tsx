@@ -46,9 +46,9 @@ const Tutorials = () => {
                     </div>
 
                     <div className="space-y-2">
-                        <p className="pb-[15px] text-3xl">Plugin Tutorials</p>
+                        <p className="pb-[10px] text-3xl">Plugin Tutorials</p>
                         <div className="space-y-2">
-                            <p className="text-2xl">Better RTP</p>
+                            <p className="pb-[15px] text-2xl">Better RTP</p>
                             <div className="space-y-2">
                                 <p className="">
                                     Better RTP is a plugin that teleports you
@@ -98,7 +98,7 @@ const Tutorials = () => {
                                 </div>
                             </div>
 
-                            <p className="mt-2 text-2xl">UltimateClaims</p>
+                            <p className="py-[15px] text-2xl">UltimateClaims</p>
                             <div className="space-y-2">
                                 <p className="">
                                     UltimateClaims is a plugin in the server
@@ -140,7 +140,7 @@ const Tutorials = () => {
                                 </div>
                             </div>
 
-                            <p className="mt-2 text-2xl">EconomyShopGUI</p>
+                            <p className="py-[15px] text-2xl">EconomyShopGUI</p>
                             <div className="space-y-2">
                                 <p className="">
                                     This is plugin that allows you to sell and
@@ -173,7 +173,7 @@ const Tutorials = () => {
                                     className="my-4 h-[315px] w-[420px] md:h-[560px] md:w-[940px]"
                                 ></iframe>
                             </div>
-                            <p className="pb-[15px] text-2xl">
+                            <p className="py-[15px] text-2xl">
                                 Teleporting Commands
                             </p>
                             <div className="mt-4">
