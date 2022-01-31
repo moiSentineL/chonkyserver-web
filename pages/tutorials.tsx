@@ -181,15 +181,15 @@ const Tutorials = () => {
                                     <div className="">
                                         <p className="">
                                             To teleport to other players, use
-                                            command /tpa to send them a request.
+                                            command <code className="">/tpa {"<playername>"}</code>{" "} to send them a request.
                                         </p>
                                         <p className="">
-                                            You can use /tpaccept to accept a
+                                            You can use <code className="">/tpaccept</code>{" "} to accept a
                                             request.
                                         </p>
                                     </div>
                                     <p className="">
-                                        Use <code className="">/tpahere</code>{" "}
+                                        Use <code className="">/tpahere {"<playername>"}</code>{" "}
                                         to teleport a player to your location.
                                     </p>
                                     <p className="">
@@ -208,24 +208,24 @@ const Tutorials = () => {
                                         <p className="">
                                             You can message other players
                                             privately using{" "}
-                                            <code className="">/msg</code>
+                                            <code className="">/msg {"<playername> <message>"}</code>
                                         </p>
                                         <p className="">
                                             Reply to a recent message by{" "}
-                                            <code className="">/r</code>
+                                            <code className="">/r {"<message>"}</code>
                                         </p>
                                     </div>
                                     <div className="">
                                         <p className="">
                                             Send mails to other players using{" "}
-                                            <code className="">/mail</code> send
+                                            <code className="">/mail send {"<playername> <message>"}</code>{" "} 
                                             so that they can read it next time
                                             they come online.
                                         </p>
                                         <p className="">
                                             Send mails to all players by{" "}
-                                            <code className="">/mail</code>{" "}
-                                            sendall .
+                                            <code className="">/mail sendall {"<message>"}</code>{" "}
+                                            .
                                         </p>
                                     </div>
                                 </div>
@@ -237,12 +237,12 @@ const Tutorials = () => {
                                 <div className="">
                                     <div>
                                         <p>
-                                            You can use <code>/nick</code> : to
+                                            You can use <code>/nick</code> to
                                             set a nickname for yourself.
                                         </p>
                                         <p>
-                                            And use <code>/sethome</code> to set
-                                            yourself a home.
+                                            And use <code>/sethome {"<name of the home>"}</code> to set
+                                            yourself a home. You can have upto 3 homes. 
                                         </p>
                                     </div>
                                 </div>
