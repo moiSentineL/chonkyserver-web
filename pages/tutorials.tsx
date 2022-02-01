@@ -10,7 +10,7 @@ const Tutorials = () => {
             </Head>
 
             <main className="mx-auto flex w-full flex-1 flex-col justify-center p-5 md:max-w-3xl lg:max-w-6xl">
-                <h1 className="mt-6 text-center text-3xl font-bold sm:text-4xl lg:-mt-5 lg:text-6xl ">
+                <h1 className="pt-5 text-center text-3xl font-bold sm:text-4xl lg:-mt-5 lg:text-6xl ">
                     Tutorials
                 </h1>
 
@@ -181,15 +181,23 @@ const Tutorials = () => {
                                     <div className="">
                                         <p className="">
                                             To teleport to other players, use
-                                            command <code className="">/tpa {"<playername>"}</code>{" "} to send them a request.
+                                            command{" "}
+                                            <code className="">
+                                                /tpa {"<playername>"}
+                                            </code>{" "}
+                                            to send them a request.
                                         </p>
                                         <p className="">
-                                            You can use <code className="">/tpaccept</code>{" "} to accept a
-                                            request.
+                                            You can use{" "}
+                                            <code className="">/tpaccept</code>{" "}
+                                            to accept a request.
                                         </p>
                                     </div>
                                     <p className="">
-                                        Use <code className="">/tpahere {"<playername>"}</code>{" "}
+                                        Use{" "}
+                                        <code className="">
+                                            /tpahere {"<playername>"}
+                                        </code>{" "}
                                         to teleport a player to your location.
                                     </p>
                                     <p className="">
@@ -208,23 +216,32 @@ const Tutorials = () => {
                                         <p className="">
                                             You can message other players
                                             privately using{" "}
-                                            <code className="">/msg {"<playername> <message>"}</code>
+                                            <code className="">
+                                                /msg {"<playername> <message>"}
+                                            </code>
                                         </p>
                                         <p className="">
                                             Reply to a recent message by{" "}
-                                            <code className="">/r {"<message>"}</code>
+                                            <code className="">
+                                                /r {"<message>"}
+                                            </code>
                                         </p>
                                     </div>
                                     <div className="">
                                         <p className="">
                                             Send mails to other players using{" "}
-                                            <code className="">/mail send {"<playername> <message>"}</code>{" "} 
+                                            <code className="">
+                                                /mail send{" "}
+                                                {"<playername> <message>"}
+                                            </code>{" "}
                                             so that they can read it next time
                                             they come online.
                                         </p>
                                         <p className="">
                                             Send mails to all players by{" "}
-                                            <code className="">/mail sendall {"<message>"}</code>{" "}
+                                            <code className="">
+                                                /mail sendall {"<message>"}
+                                            </code>{" "}
                                             .
                                         </p>
                                     </div>
@@ -241,8 +258,12 @@ const Tutorials = () => {
                                             set a nickname for yourself.
                                         </p>
                                         <p>
-                                            And use <code>/sethome {"<name of the home>"}</code> to set
-                                            yourself a home. You can have upto 3 homes. 
+                                            And use{" "}
+                                            <code>
+                                                /sethome {"<name of the home>"}
+                                            </code>{" "}
+                                            to set yourself a home. You can have
+                                            upto 3 homes.
                                         </p>
                                     </div>
                                 </div>
@@ -254,7 +275,7 @@ const Tutorials = () => {
             <footer className="mt-10 flex h-24 w-full items-center justify-center border-t lg:mt-0">
                 <a
                     className="flex items-center justify-center"
-                    href="https://jonakadiptakalita.herokuapp.com/"
+                    href="https://github.com/Jonak-Adipta-Kalita"
                     target="_blank"
                     rel="noopener noreferrer"
                 >

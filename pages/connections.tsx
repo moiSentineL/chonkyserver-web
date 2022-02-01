@@ -56,7 +56,7 @@ const Connections = () => {
             <footer className="mt-10 flex h-24 w-full items-center justify-center border-t lg:mt-0">
                 <a
                     className="flex items-center justify-center"
-                    href="https://jonakadiptakalita.herokuapp.com/"
+                    href="https://github.com/Jonak-Adipta-Kalita"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
