@@ -14,7 +14,17 @@ const Contact = () => {
                     Contact Us
                 </h1>
 
-                <div className=""></div>
+                <div className="">
+                    <p className="mt-[50px]">
+                        Contact us on{" "}
+                        <a
+                            href="https://t.me/moisentinel"
+                            className="hover:text-blue-500 hover:underline"
+                        >
+                            Telegram
+                        </a>
+                    </p>
+                </div>
             </main>
             <footer className="mt-10 flex h-24 w-full items-center justify-center border-t lg:mt-0">
                 <a
