@@ -24,7 +24,7 @@ const MoreInfo = () => {
                         Server for both Java Edition and Bedrock (Win10,
                         Android, iOS) Edition. This was made in January 2022.
                         The server stays online from{" "}
-                        <span className="font-semibold">8AM to 12PM IST</span>.
+                        <span className="font-bold">8AM to 12PM IST</span>.
                         You can play this anytime you want. Feel free to contact
                         us for more support.
                     </p>
@@ -67,8 +67,9 @@ const MoreInfo = () => {
                                 <span className="text-lg">7)</span> Great
                                 plugins for great gameplay. Click{" "}
                                 <span
-                                    className="cursor-pointer hover:text-blue-500 hover:underline"
+                                    className="underline cursor-pointer hover:text-blue-500 hover:underline"
                                     onClick={() => router.push("/tutorials")}
+                                    
                                 >
                                     here
                                 </span>{" "}
@@ -85,7 +86,7 @@ const MoreInfo = () => {
                         Join now. And become a chonker in ChonkyServer. Click{" "}
                         <span
                             onClick={() => router.push("/connections")}
-                            className="cursor-pointer hover:text-blue-500 hover:underline"
+                            className=" underline cursor-pointer hover:text-blue-500 hover:underline"
                         >
                             here
                         </span>{" "}

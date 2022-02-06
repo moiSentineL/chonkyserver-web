@@ -21,8 +21,14 @@ const Tutorials = () => {
                             The game has a built-in economy (money money money).
                         </p>
                         <p className="">
-                            You can earn money, give money, sell and buy stuff
-                            (ShopGUI) and become the richest in the server.
+                            You can earn money, give money, sell and buy stuff {" {"}
+                            <a
+                                href="#ShopGUI"
+                                className="underline cursor-pointer hover:text-blue-500 hover:underline"
+                            >
+                                ShopGUI
+                            </a>
+                            {"} "}and become the richest in the server.
                         </p>
                     </div>
                     <p className="">
@@ -39,7 +45,7 @@ const Tutorials = () => {
 
                         <p className="">
                             You can see your balance by using the command{" "}
-                            <code className="">/bal</code>
+                            <code className="">/bal</code>{" "}
                             and to find who's the richest, use{" "}
                             <code className="">/baltop</code>.
                         </p>
@@ -139,8 +145,11 @@ const Tutorials = () => {
                                     ></iframe>
                                 </div>
                             </div>
-
-                            <p className="py-[15px] text-2xl">EconomyShopGUI</p>
+                            
+                            <div id="ShopGUI">
+                                <p className="py-[15px] text-2xl ">EconomyShopGUI </p>
+                            </div>
+                            
                             <div className="space-y-2">
                                 <p className="">
                                     This is plugin that allows you to sell and
@@ -227,7 +236,7 @@ const Tutorials = () => {
                                             </code>
                                         </p>
                                     </div>
-                                    <div className="">
+                                    <div className="mt-4">
                                         <p className="">
                                             Send mails to other players using{" "}
                                             <code className="">
@@ -241,6 +250,13 @@ const Tutorials = () => {
                                             Send mails to all players by{" "}
                                             <code className="">
                                                 /mail sendall {"<message>"}
+                                            </code>{" "}
+                                            .
+                                        </p>
+                                        <p className="">
+                                            Read mails  by{" "}
+                                            <code className="">
+                                                /mail read {"<message>"}
                                             </code>{" "}
                                             .
                                         </p>

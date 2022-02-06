@@ -28,12 +28,12 @@ const Connections = () => {
                         <p className="text-2xl">Bedrock Edition</p>
                         <p className="text-lg">For Minecraft Pocket Edition</p>
                         <p className="text-lg">
-                            To add to your servers,{" "}
+                            To add to your servers, click{" "}
                             <a
                                 href="minecraft://?addExternalServer=ChonkyServer|play.chonkyserver.tk:19132"
-                                className="hover:text-blue-500 hover:underline"
+                                className="underline cursor-pointer hover:text-blue-500 hover:underline"
                             >
-                                click here
+                                here
                             </a>
                         </p>
                     </div>
