@@ -9,20 +9,17 @@ const Contact = () => {
                 <link rel="icon" href="/favicon.png" />
             </Head>
 
-            <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">
-                <h1 className="mt-5 text-3xl font-bold sm:text-4xl lg:-mt-5 lg:text-6xl">
+            <main className="mt-auto flex w-full flex-1 flex-col items-center justify-center p-5 md:max-w-3xl lg:max-w-6xl">
+                <h1 className="pt-5 text-3xl font-bold sm:text-4xl lg:-mt-5 lg:text-6xl">
                     Contact Us
                 </h1>
 
                 <div className="">
                     <p className="mt-[50px]">
-                        Contact us on{" "}
-                        <a
-                            href="https://t.me/moisentinel"
-                            className="hover:text-blue-500 hover:underline"
-                        >
-                            Telegram
-                        </a>
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeBoBHFT3y0faurJjre56eWBeS51FajiBY--uKiNUmcaymSyw/viewform?embedded=true" 
+                    
+                    className="my-4 h-[560px] w-[420px] md:h-[560px] md:w-[960px]" ></iframe>
+                        
                     </p>
                 </div>
             </main>
