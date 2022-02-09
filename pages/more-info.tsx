@@ -90,7 +90,7 @@ const MoreInfo = () => {
                         >
                             here
                         </span>{" "}
-                        for information regarding to the server.
+                        for information regarding connecting to the server.
                     </p>
                 </div>
             </main>

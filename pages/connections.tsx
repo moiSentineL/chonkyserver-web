@@ -1,7 +1,10 @@
 import Head from "next/head";
 import React from "react";
+import { useRouter } from "next/router";
 
 const Connections = () => {
+    const router = useRouter();
+
     return (
         <div className="flex min-h-screen flex-col items-center bg-[#2C2F33] py-2 text-gray-300">
             <Head>
@@ -48,8 +51,14 @@ const Connections = () => {
                     </div>
 
                     <p className="">
-                        For more support, or reporting any errors, please
-                        contact us.
+                        For more support, or reporting any errors, please{" "}
+                        <span
+                            onClick={() => router.push("/contact")}
+                            className=" underline cursor-pointer hover:text-blue-500 hover:underline"
+                        >
+                            contact us
+                        </span>{" "}
+                        .
                     </p>
                 </div>
             </main>
