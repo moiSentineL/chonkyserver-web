@@ -17,7 +17,7 @@ const MoreInfo = () => {
                     More Information
                 </h1>
 
-                <div className="mt-10 font-semibold text-white md:text-lg">
+                <div className="mt-10 font-semibold text-white md:text-lg sm:text-lg">
                     <p className="text-justify">
                         ChonkyServer is a{" "}
                         <span className="italic">cracked</span> Minecraft SMP

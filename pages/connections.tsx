@@ -18,19 +18,19 @@ const Connections = () => {
                 </h1>
 
                 <div className="mt-10 space-y-4 font-semibold text-white">
-                    <p className="text-3xl">Connecting to the server.</p>
+                    <p className="text-2xl">Connecting to the server.</p>
                     <div className="">
-                        <p className="text-2xl">Java Edition</p>
-                        <p className="text-lg">
+                        <p className="text-xl">Java Edition</p>
+                        <p className="text-md">
                             Use IP Address{" "}
                             <code className="">play.chonkyserver.tk</code> to
                             connect to ChonkyServer.
                         </p>
                     </div>
                     <div className="">
-                        <p className="text-2xl">Bedrock Edition</p>
+                        <p className="text-xl">Bedrock Edition</p>
                         <p className="text-lg">For Minecraft Pocket Edition</p>
-                        <p className="text-lg">
+                        <p className="text-md">
                             To add to your servers, click{" "}
                             <a
                                 href="minecraft://?addExternalServer=ChonkyServer|play.chonkyserver.tk:19132"
@@ -42,7 +42,7 @@ const Connections = () => {
                     </div>
                     <div className="">
                         <p className="text-lg">Manual Server Adding:</p>
-                        <p className="text-lg">
+                        <p className="text-md">
                             Use IP Address{" "}
                             <code className="">play.chonkyserver.tk</code> and
                             Port <code className="">19132</code> to connect to
@@ -50,14 +50,14 @@ const Connections = () => {
                         </p>
                     </div>
 
-                    <p className="">
+                    <p className="text-lg">
                         For more support, or reporting any errors, please{" "}
                         <span
                             onClick={() => router.push("/contact")}
                             className=" underline cursor-pointer hover:text-blue-500 hover:underline"
                         >
                             contact us
-                        </span>{" "}
+                        </span>
                         .
                     </p>
                 </div>
