@@ -61,7 +61,7 @@ const Tutorials = () => {
                                 </a>
                             </p>
                         </p>
-                        <p className="mt-2">
+                        <p className="mt-2 text-3xl">
                             &rarr;{" "}
                             <a
                                 href="#Teleportation"
@@ -70,7 +70,7 @@ const Tutorials = () => {
                                 Teleportation Commands
                             </a> 
                         </p>
-                        <p className="mt-1">
+                        <p className="mt-1 text-3xl">
                             &rarr;{" "}
                             <a
                                 href="#Social"
@@ -79,7 +79,7 @@ const Tutorials = () => {
                                 Social Commands
                             </a> 
                         </p>
-                        <p className="mt-1">
+                        <p className="mt-1 text-3xl">
                             &rarr;{" "}
                             <a
                                 href="#Others"
