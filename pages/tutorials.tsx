@@ -14,7 +14,7 @@ const Tutorials = () => {
                     Tutorials
                 </h1>
                 <div className="mt-10 space-y-4 font-semibold text-white">
-                    <p className="text-4xl md:text-3xl sm:text-2xl">Contents</p>
+                    <p className="text-4xl">Contents</p>
                     <div className="mt-2 text-3xl sm:textfont-semibold text-white">
                         <p className="mt-1">
                             &rarr;{" "}
