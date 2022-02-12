@@ -20,16 +20,33 @@ const Connections = () => {
                 <div className="mt-10 space-y-4 font-semibold text-white">
                     <p className="text-2xl">Connecting to the server.</p>
                     <div className="">
-                        <p className="text-xl">Java Edition</p>
+                        <p className="mt-4 text-xl">Java Edition</p>
                         <p className="text-md">
+                            You MUST have Version 1.12.2+ to join the server.</p>
+                        <p className="text-md">
+                            You should use Version 1.16.5 or 1.17.1 (recommended) for optimal performance.</p>
+                        <p className="mt-2 text-md">
                             Use IP Address{" "}
                             <code className="">play.chonkyserver.tk</code> to
                             connect to ChonkyServer.
                         </p>
                     </div>
                     <div className="">
-                        <p className="text-xl">Bedrock Edition</p>
-                        <p className="text-lg">For Minecraft Pocket Edition</p>
+                        <p className="mt-4 text-xl">Bedrock Edition</p>
+                        <p className="text-md">
+                            You should have at least MCPE Version 1.17.41 in order to connect.</p>
+                        <p className="text-md">   
+                            Version 1.18.2 doesn't work yet.</p>
+                        <p className="text-md"> 
+                            For better performance use MCPE Version 1.18.10. Click{" "}
+                            <a
+                                href="https://mcpedl.org/minecraft-pe-1-18-10-apk/"
+                                className="underline cursor-pointer hover:text-blue-500 hover:underline"
+                            >
+                                here
+                            </a>
+                            {" "}to download.</p>
+                        <p className="mt-2 text-lg">For Minecraft Pocket Edition</p>
                         <p className="text-md">
                             To add to your servers, click{" "}
                             <a
@@ -39,9 +56,7 @@ const Connections = () => {
                                 here
                             </a>
                         </p>
-                    </div>
-                    <div className="">
-                        <p className="text-lg">Manual Server Adding:</p>
+                        <p className="mt-2 text-lg">Manual Server Adding:</p>
                         <p className="text-md">
                             Use IP Address{" "}
                             <code className="">play.chonkyserver.tk</code> and
@@ -50,7 +65,7 @@ const Connections = () => {
                         </p>
                     </div>
 
-                    <p className="text-lg">
+                    <div className="mt-4 text-lg">
                         For more support, or reporting any errors, please{" "}
                         <span
                             onClick={() => router.push("/contact")}
@@ -59,18 +74,30 @@ const Connections = () => {
                             contact us
                         </span>
                         .
-                    </p>
+                    </div>
                 </div>
             </main>
             <footer className="mt-10 flex h-24 w-full items-center justify-center border-t lg:mt-0">
-                <a
-                    className="flex items-center justify-center"
-                    href="https://github.com/Jonak-Adipta-Kalita"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    Made by Jonak Adipta Kalita
-                </a>
+                <div className="">
+                    Made by{" "}
+                    <a
+                        className="cursor-pointer hover:text-blue-500 hover:underline"
+                        href="https://github.com/Jonak-Adipta-Kalita"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Jonak Adipta Kalita
+                    </a>
+                    {" "}and{" "}
+                    <a
+                        className="cursor-pointer hover:text-blue-500 hover:underline"
+                        href="https://t.me/moisentinel"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        moiSentineL
+                    </a>
+                </div>
             </footer>
         </div>
     );

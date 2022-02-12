@@ -74,14 +74,26 @@ const Home = () => {
                 </div>
             </main>
             <footer className="mt-10 flex h-24 w-full items-center justify-center border-t lg:mt-0">
-                <a
-                    className="flex items-center justify-center"
-                    href="https://github.com/Jonak-Adipta-Kalita"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    Made by Jonak Adipta Kalita
-                </a>
+                <div className="">
+                    Made by{" "}
+                    <a
+                        className="cursor-pointer hover:text-blue-500 hover:underline"
+                        href="https://github.com/Jonak-Adipta-Kalita"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Jonak Adipta Kalita
+                    </a>
+                    {" "}and{" "}
+                    <a
+                        className="cursor-pointer hover:text-blue-500 hover:underline"
+                        href="https://t.me/moisentinel"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        moiSentineL
+                    </a>
+                </div>
             </footer>
         </div>
     );

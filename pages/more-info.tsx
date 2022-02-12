@@ -24,9 +24,15 @@ const MoreInfo = () => {
                         Server for both Java Edition and Bedrock (Win10,
                         Android, iOS) Edition. This was made in January 2022.
                         The server stays online from{" "}
-                        <span className="font-bold">8AM to 12PM IST</span>.
-                        You can play this anytime you want. Feel free to contact
-                        us for more support.
+                        <span className="font-bold">10AM to 12PM IST</span>.
+                        You can play this anytime you want. Feel free to{" "}
+                        <span
+                            onClick={() => router.push("/contact")}
+                            className=" underline cursor-pointer hover:text-blue-500 hover:underline"
+                        >
+                            contact us
+                        </span>
+                        {" "}for more support.
                     </p>
                     <div className="mt-3">
                         <p className="mb-2">Some of the features include:</p>
@@ -45,7 +51,7 @@ const MoreInfo = () => {
                                 {" "}
                                 <span className="text-lg">3)</span>{" "}
                                 Multi-Version Support (Java 1.12.2 to 1.18.1,
-                                and PE 1.17 to 1.18.2)
+                                and PE 1.17.41 to 1.18.10)
                             </p>
                             <p className="text-base">
                                 {" "}
@@ -95,14 +101,26 @@ const MoreInfo = () => {
                 </div>
             </main>
             <footer className="mt-10 flex h-24 w-full items-center justify-center border-t lg:mt-0">
-                <a
-                    className="flex items-center justify-center"
-                    href="https://github.com/Jonak-Adipta-Kalita"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    Made by Jonak Adipta Kalita
-                </a>
+                <div className="">
+                    Made by{" "}
+                    <a
+                        className="cursor-pointer hover:text-blue-500 hover:underline"
+                        href="https://github.com/Jonak-Adipta-Kalita"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Jonak Adipta Kalita
+                    </a>
+                    {" "}and{" "}
+                    <a
+                        className="cursor-pointer hover:text-blue-500 hover:underline"
+                        href="https://t.me/moisentinel"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        moiSentineL
+                    </a>
+                </div>
             </footer>
         </div>
     );

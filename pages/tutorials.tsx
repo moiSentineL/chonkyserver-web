@@ -116,12 +116,12 @@ const Tutorials = () => {
                                     The plugin requires you to use something
                                     called a 'PowerCell' to manage your claim.
                                     The powercell requires fuel to keep working.
-                                    Here our fuels are, Iron Ingot, Diamond and
+                                    Here our fuels are, Iron Ingot, Gold Ingot, Diamond and
                                     Emerald.{" "}
                                 </p>
                                 <p className="">
-                                    An Iron Ingots provides claim for 2 hours,
-                                    Diamonds for 6 hours, and emeralds for 9
+                                    An Iron Ingots provides claim for 4 hours, Gold Ingot for 6 hours,
+                                    Diamonds for 8 hours, and emeralds for 9
                                     hours.
                                 </p>
                                 <p className="">
@@ -289,14 +289,26 @@ const Tutorials = () => {
                 </div>
             </main>
             <footer className="mt-10 flex h-24 w-full items-center justify-center border-t lg:mt-0">
-                <a
-                    className="flex items-center justify-center"
-                    href="https://github.com/Jonak-Adipta-Kalita"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    Made by Jonak Adipta Kalita
-                </a>
+                <div className="">
+                    Made by{" "}
+                    <a
+                        className="cursor-pointer hover:text-blue-500 hover:underline"
+                        href="https://github.com/Jonak-Adipta-Kalita"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Jonak Adipta Kalita
+                    </a>
+                    {" "}and{" "}
+                    <a
+                        className="cursor-pointer hover:text-blue-500 hover:underline"
+                        href="https://t.me/moisentinel"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        moiSentineL
+                    </a>
+                </div>
             </footer>
         </div>
     );
