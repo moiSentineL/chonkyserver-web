@@ -33,33 +33,35 @@ const Tutorials = () => {
                             >
                                 Plugin Tutorials
                             </a>
-                            <p className="mt-2 text-2xl">
-                                &emsp;&nbsp;&nbsp;&rarr;{" "}
-                                <a
-                                    href="#BetterRTP"
-                                    className="cursor-pointer hover:text-blue-500 hover:underline"
-                                >
-                                    BetterRTP
-                                </a>
-                            </p>
-                            <p className="mt-1 text-2xl">
-                                &emsp;&nbsp;&nbsp;&rarr;{" "}
-                                <a
-                                    href="#UltimateClaims"
-                                    className="cursor-pointer hover:text-blue-500 hover:underline"
-                                >
-                                    UltimateClaims
-                                </a>
-                            </p>
-                            <p className="mt-1 text-2xl">
-                                &emsp;&nbsp;&nbsp;&rarr;{" "}
-                                <a
-                                    href="#ShopGUI"
-                                    className="cursor-pointer hover:text-blue-500 hover:underline"
-                                >
-                                    EconomyShopGUI
-                                </a>
-                            </p>
+                            <div className="">
+                                <p className="mt-2 text-2xl">
+                                    &emsp;&nbsp;&nbsp;&rarr;{" "}
+                                    <a
+                                        href="#BetterRTP"
+                                        className="cursor-pointer hover:text-blue-500 hover:underline"
+                                    >
+                                        BetterRTP
+                                    </a>
+                                </p>
+                                <p className="mt-1 text-2xl">
+                                    &emsp;&nbsp;&nbsp;&rarr;{" "}
+                                    <a
+                                        href="#UltimateClaims"
+                                        className="cursor-pointer hover:text-blue-500 hover:underline"
+                                    >
+                                        UltimateClaims
+                                    </a>
+                                </p>
+                                <p className="mt-1 text-2xl">
+                                    &emsp;&nbsp;&nbsp;&rarr;{" "}
+                                    <a
+                                        href="#ShopGUI"
+                                        className="cursor-pointer hover:text-blue-500 hover:underline"
+                                    >
+                                        EconomyShopGUI
+                                    </a>
+                                </p>
+                            </div>
                         </p>
                         <p className="mt-2 text-3xl">
                             &rarr;{" "}
