@@ -13,9 +13,96 @@ const Tutorials = () => {
                 <h1 className="pt-5 text-center text-3xl font-bold sm:text-4xl lg:-mt-5 lg:text-6xl ">
                     Tutorials
                 </h1>
+                <div className="mt-10 space-y-4 font-semibold text-white">
+                    <p className="text-4xl">Contents</p>
+                    <div className="mt-2 text-3xl font-semibold text-white">
+                        <p className="mt-1">
+                            &rarr;{" "}
+                            <a
+                                href="#InGameEco"
+                                className="cursor-pointer hover:text-blue-500 hover:underline"
+                            >
+                                In Game Economy
+                            </a>    
+                        </p>
+                        <p className="mt-1">
+                            &rarr;{" "}
+                            <a
+                                href="#PluginTut"
+                                className="cursor-pointer hover:text-blue-500 hover:underline"
+                            >
+                                Plugin Tutorials
+                            </a>
+                            <p className="mt-2 text-2xl">
+                                &emsp;&nbsp;&nbsp;&rarr;{" "}
+                                <a
+                                    href="#BetterRTP"
+                                    className="cursor-pointer hover:text-blue-500 hover:underline"
+                                >
+                                    BetterRTP
+                                </a>
+                            </p>
+                            <p className="mt-1 text-2xl">
+                                &emsp;&nbsp;&nbsp;&rarr;{" "}
+                                <a
+                                    href="#UltimateClaims"
+                                    className="cursor-pointer hover:text-blue-500 hover:underline"
+                                >
+                                    UltimateClaims
+                                </a>
+                            </p>
+                            <p className="mt-1 text-2xl">
+                                &emsp;&nbsp;&nbsp;&rarr;{" "}
+                                <a
+                                    href="#ShopGUI"
+                                    className="cursor-pointer hover:text-blue-500 hover:underline"
+                                >
+                                    EconomyShopGUI
+                                </a>
+                            </p>
+                        </p>
+                        <p className="mt-2">
+                            &rarr;{" "}
+                            <a
+                                href="#Teleportation"
+                                className="cursor-pointer hover:text-blue-500 hover:underline"
+                            >
+                                Teleportation Commands
+                            </a> 
+                        </p>
+                        <p className="mt-1">
+                            &rarr;{" "}
+                            <a
+                                href="#Social"
+                                className="cursor-pointer hover:text-blue-500 hover:underline"
+                            >
+                                Social Commands
+                            </a> 
+                        </p>
+                        <p className="mt-1">
+                            &rarr;{" "}
+                            <a
+                                href="#Others"
+                                className="cursor-pointer hover:text-blue-500 hover:underline"
+                            >
+                                Other Useful Commands
+                            </a> 
+                        </p>
 
+                    </div>
+
+                
+                    
+
+
+
+
+
+                </div>
                 <div className="mt-10 space-y-4 text-lg font-semibold text-white">
-                    <p className="text-3xl">In-Game Economy</p>
+                    <div id="InGameEco">
+                        <p className="text-4xl">In-Game Economy</p>
+                    </div>
                     <div className="">
                         <p className="">
                             The game has a built-in economy (money money money).
@@ -26,7 +113,7 @@ const Tutorials = () => {
                                 href="#ShopGUI"
                                 className="underline cursor-pointer hover:text-blue-500 hover:underline"
                             >
-                                ShopGUI
+                                EconomyShopGUI
                             </a>
                             {"} "}and become the richest in the server.
                         </p>
@@ -52,9 +139,13 @@ const Tutorials = () => {
                     </div>
 
                     <div className="space-y-2">
-                        <p className="pb-[10px] text-3xl">Plugin Tutorials</p>
+                        <div id="PluginTut">
+                            <p className="pb-[10px] text-4xl">Plugin Tutorials</p>
+                        </div>
                         <div className="space-y-2">
-                            <p className="pb-[15px] text-2xl">Better RTP</p>
+                            <div id="BetterRTP">
+                                <p className="pb-[15px] text-2xl">Better RTP</p>
+                            </div>
                             <div className="space-y-2">
                                 <p className="">
                                     Better RTP is a plugin that teleports you
@@ -103,8 +194,9 @@ const Tutorials = () => {
                                     </div>
                                 </div>
                             </div>
-
-                            <p className="py-[15px] text-2xl">UltimateClaims</p>
+                            <div id="UltimateClaims">
+                                <p className="py-[15px] text-2xl">UltimateClaims</p>
+                            </div>
                             <div className="space-y-2">
                                 <p className="">
                                     UltimateClaims is a plugin in the server
@@ -182,9 +274,11 @@ const Tutorials = () => {
                                     className="my-4 h-[315px] w-[420px] md:h-[560px] md:w-[940px]"
                                 ></iframe>
                             </div>
-                            <p className="py-[15px] text-2xl">
-                                Teleporting Commands
-                            </p>
+                            <div id="Teleportation">
+                                <p className="py-[15px] text-4xl">
+                                    Teleportation Commands
+                                </p>
+                            </div>
                             <div className="mt-4">
                                 <div className="">
                                     <div className="">
@@ -216,9 +310,11 @@ const Tutorials = () => {
                                     </p>
                                 </div>
                             </div>
-                            <p className="py-[15px] text-2xl">
-                                Social Commands
-                            </p>
+                            <div id="Social">
+                                <p className="py-[15px] text-4xl">
+                                    Social Commands
+                                </p>
+                            </div>
                             <div className="mt-4">
                                 <div className="">
                                     <div className="">
@@ -263,9 +359,11 @@ const Tutorials = () => {
                                     </div>
                                 </div>
                             </div>
-                            <p className="py-[15px] text-2xl">
-                                Other useful Commands
-                            </p>
+                            <div id="Other">
+                                <p className="py-[15px] text-4xl">
+                                    Other Useful Commands
+                                </p>
+                            </div>
                             <div className="mt-4">
                                 <div className="">
                                     <div>
@@ -273,7 +371,7 @@ const Tutorials = () => {
                                             You can use <code>/nick</code> to
                                             set a nickname for yourself.
                                         </p>
-                                        <p>
+                                        <p className="mb=4">
                                             And use{" "}
                                             <code>
                                                 /sethome {"<name of the home>"}
