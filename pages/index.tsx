@@ -12,7 +12,7 @@ const Home = () => {
                 <h1 className="mt-5 text-3xl font-bold sm:text-6xl lg:-mt-5 lg:text-6xl my-10">
                     Welcome to ChonkyServer
                 </h1>
-                <div className="pt-5 mt-10 text-2xl font-bold sm:text-6xl lg:-mt-10 lg:text-5xl">
+                <div className="lg:pt-5 mt-0 text-2xl font-bold sm:text-6xl lg:-mt-10 lg:text-5xl">
                     Currently down due to Domain Problems
                 </div> 
 
