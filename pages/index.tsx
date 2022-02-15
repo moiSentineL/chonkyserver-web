@@ -9,11 +9,11 @@ const Home = () => {
             </Head>
 
             <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">
-                <h1 className="mt-5 text-3xl font-bold sm:text-6xl lg:-mt-5 lg:text-6xl my-10">
+                <h1 className="mt-5 text-3xl font-bold sm:text-6xl lg:-mt-5 lg:text-6xl my-4 lg:my-10">
                     Welcome to ChonkyServer
                 </h1>
-                <div className="lg:pt-5 mt-0 text-2xl font-bold sm:text-6xl lg:-mt-10 lg:text-5xl">
-                    Currently down due to Domain Problems
+                <div className="lg:pt-5 text-2xl font-bold sm:text-6xl lg:-mt-10 lg:text-4xl">
+                    Made for Gamers, by Gamers.
                 </div> 
 
                 <div className="mt-6 flex max-w-4xl flex-wrap items-center justify-around sm:w-full">
