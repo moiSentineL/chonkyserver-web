@@ -216,6 +216,10 @@ const Tutorials = () => {
                                     claim from getting dissolved.
                                 </p>
                                 <p className="">
+                                    Check recipe with{" "}
+                                    <code className="">/c recipe</code>
+                                </p>
+                                <p className="">
                                     You can use the command{" "}
                                     <code className="">/c</code> for more help.
                                 </p>
