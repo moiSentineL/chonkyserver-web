@@ -6,9 +6,17 @@
 Index
 |
 |- more-info
+|  |- Bio
+|
 |- connections
+|  |- Links and info for connection.
+|
 |- tutorials
+|  |- Plugins info.
+|  |- Commands info
+|
 |- contact
+   |- Enquiry Form
 ```
 
 ## Current management
