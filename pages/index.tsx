@@ -13,7 +13,7 @@ const Home = () => {
                     Welcome to ChonkyServer
                 </h1>
                 <div className="lg:pt-5 text-2xl font-bold sm:text-6xl lg:-mt-10 lg:text-4xl">
-                    Server down for maintenance. Please be patient
+                    Server might experience issues. Kindly give us some time.
                 </div> 
 
                 <div className="mt-6 flex max-w-4xl flex-wrap items-center justify-around sm:w-full">
