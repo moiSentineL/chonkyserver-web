@@ -13,10 +13,11 @@ const MoreInfo = () => {
             </Head>
 
             <main className="mx-auto flex flex-1 flex-col justify-center px-5 md:max-w-3xl lg:max-w-6xl">
-                <h1 className="mt-5 text-center text-3xl font-bold sm:text-4xl lg:mt-0 lg:text-6xl">
-                    More Information
-                </h1>
-
+                <div className="mx-auto flex w-full flex-1 flex-col items-center justify-center md:max-w-3xl lg:max-w-6xl">              
+                    <h1 className="mt-5 text-4xl font-bold sm:text-6xl lg:-mt-5 lg:text-6xl my-4 lg:my-10">
+                        More Information
+                    </h1>
+                </div> 
                 <div className="mt-10 font-semibold text-white md:text-lg sm:text-lg">
                     <p className="text-justify">
                         ChonkyServer is a{" "}

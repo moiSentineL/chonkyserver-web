@@ -1,6 +1,8 @@
 import Head from "next/head";
+import { useRouter } from "next/router";
 
 const Home = () => {
+    const router = useRouter();
     return (
         <div className="flex min-h-screen flex-col items-center justify-center bg-[#2C2F33] py-2 text-gray-300">
             <Head>
@@ -9,11 +11,17 @@ const Home = () => {
             </Head>
 
             <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">
-                <h1 className="mt-5 text-3xl font-bold sm:text-6xl lg:-mt-5 lg:text-6xl my-4 lg:my-10">
+                <h1 className="mt-5 text-5xl font-bold sm:text-6xl lg:-mt-5 lg:text-6xl my-4 lg:my-10">
                     Welcome to ChonkyServer
                 </h1>
-                <div className="lg:pt-5 text-2xl font-bold sm:text-6xl lg:-mt-10 lg:text-4xl">
-                    Server might experience issues. Kindly give us some time.
+                <div className="pt-2 lg:pt-5 text-2xl font-bold sm:text-4xl lg:-mt-10 lg:text-4xl">
+                    <span
+                        onClick={() => router.push("/contact")}
+                        className=" underline cursor-pointer hover:text-blue-500 hover:underline"
+                    >
+                        Join WhatsApp group
+                    </span>
+                    {" "}for updates NOW!
                 </div> 
 
                 <div className="mt-6 flex max-w-4xl flex-wrap items-center justify-around sm:w-full">

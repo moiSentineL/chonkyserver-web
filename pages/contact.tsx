@@ -9,13 +9,25 @@ const Contact = () => {
                 <link rel="icon" href="/favicon.png" />
             </Head>
 
-            <main className="mt-auto flex w-full flex-1 flex-col items-center justify-center p-5 md:max-w-3xl lg:max-w-6xl">
-                <h1 className="pt-5 text-3xl font-bold sm:text-4xl lg:-mt-5 lg:text-6xl">
+            <main className="mt-auto flex w-full flex-1 flex-col items-center justify-center p-5 md:max-w-5xl lg:max-w-6xl">
+                <h1 className="pt-5 mt-15 text-5xl font-bold sm:text-6xl lg:-mt-5 lg:text-6xl my-4 lg:my-10">
                     Contact Us
                 </h1>
-
+                <div className="mt-5 space-y-2 text-lg font-semibold text-white">
+                    <div id="WhatsAppGroup">
+                        <p className="text-2xl items-center justify-center ">
+                            <a
+                                href="https://chat.whatsapp.com/DXlNMvj68SIA82Y7kujMhM"
+                                className="underline cursor-pointer hover:text-blue-500 hover:underline"
+                            >
+                                Click here
+                            </a>
+                            {" "}to join the WhatsApp Group
+                        </p>
+                    </div>  
+                </div>
                 <div className="">
-                    <p className="mt-[50px]">
+                    <p className="mt-[45px]">
                     <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeBoBHFT3y0faurJjre56eWBeS51FajiBY--uKiNUmcaymSyw/viewform?embedded=true" 
                     
                     className="my-4 h-[560px] w-[420px] md:h-[560px] md:w-[960px]" ></iframe>

@@ -10,12 +10,14 @@ const Tutorials = () => {
             </Head>
 
             <main className="mx-auto flex w-full flex-1 flex-col justify-center p-5 md:max-w-3xl lg:max-w-6xl">
-                <h1 className="pt-5 text-center text-3xl font-bold sm:text-4xl lg:-mt-5 lg:text-6xl ">
-                    Tutorials
-                </h1>
+                <div className="mx-auto flex w-full flex-1 flex-col items-center justify-center md:max-w-3xl lg:max-w-6xl">              
+                    <h1 className="pt-5 mt-10 text-3xl font-bold sm:text-6xl lg:-mt-5 lg:text-6xl my-4 lg:my-10">
+                        Tutorials
+                    </h1>
+                </div> 
                 <div className="mt-10 space-y-4 font-semibold text-white">
                     <p className="text-4xl">Contents</p>
-                    <div className="mt-2 text-3xl sm:textfont-semibold text-white">
+                    <div className="mt-2 text-4xl sm:textfont-semibold text-white">
                         <p className="mt-1">
                             &rarr;{" "}
                             <a

@@ -12,8 +12,8 @@ const Connections = () => {
                 <link rel="icon" href="/favicon.png" />
             </Head>
 
-            <main className="mx-auto flex w-full flex-1 flex-col justify-center p-5 md:max-w-3xl lg:max-w-6xl">
-                <h1 className="mt-5 text-center text-3xl font-bold sm:text-4xl lg:-mt-5 lg:text-6xl">
+            <main className="mx-auto flex w-full flex-1 flex-col items-center justify-center p-5 md:max-w-3xl lg:max-w-6xl">
+                <h1 className="mt-5 text-5xl font-bold sm:text-6xl lg:-mt-5 lg:text-6xl my-4 lg:my-10">
                     Connections
                 </h1>
 
