@@ -66,8 +66,7 @@ const MoreInfo = () => {
                             </p>
                             <p className="text-base">
                                 {" "}
-                                <span className="text-lg">6)</span> Hosted with
-                                3GB of Dedicated RAM.
+                                <span className="text-lg">6)</span> Lag-Free Experience
                             </p>
                             <p className="text-base">
                                 {" "}

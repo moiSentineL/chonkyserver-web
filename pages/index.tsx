@@ -15,6 +15,16 @@ const Home = () => {
                     Welcome to ChonkyServer
                 </h1>
                 <div className="pt-2 lg:pt-5 text-2xl font-bold sm:text-4xl lg:-mt-10 lg:text-4xl">
+                    {/* <span
+                        onClick={() => router.push("/contact")}
+                        className=" underline cursor-pointer hover:text-blue-500 hover:underline"
+                    >
+                        Join WhatsApp group
+                    </span>
+                    {" "}for updates NOW! */}
+                    More Updates coming soon!
+                </div> 
+                <div className="pt-2 text-xl font-bold sm:text-2xl lg:text-2xl">
                     <span
                         onClick={() => router.push("/contact")}
                         className=" underline cursor-pointer hover:text-blue-500 hover:underline"
