@@ -17,7 +17,7 @@ const Tutorials = () => {
                 </div> 
                 <div className="mt-10 space-y-4 font-semibold text-white">
                     <p className="text-4xl">Contents</p>
-                    <div className="mt-2 text-4xl sm:textfont-semibold text-white">
+                    <div className="mt-2 text-3xl sm:textfont-semibold text-white">
                         <p className="mt-1">
                             &rarr;{" "}
                             <a
@@ -36,15 +36,6 @@ const Tutorials = () => {
                                 Plugin Tutorials
                             </a>
                             <div className="">
-                                <p className="mt-2 text-2xl">
-                                    &emsp;&nbsp;&nbsp;&rarr;{" "}
-                                    <a
-                                        href="#BetterRTP"
-                                        className="cursor-pointer hover:text-blue-500 hover:underline"
-                                    >
-                                        BetterRTP
-                                    </a>
-                                </p>
                                 <p className="mt-1 text-2xl">
                                     &emsp;&nbsp;&nbsp;&rarr;{" "}
                                     <a
@@ -138,58 +129,7 @@ const Tutorials = () => {
                         <div id="PluginTut">
                             <p className="pb-[10px] text-4xl">Plugin Tutorials</p>
                         </div>
-                        <div className="space-y-2">
-                            <div id="BetterRTP">
-                                <p className="pb-[15px] text-2xl">Better RTP</p>
-                            </div>
-                            <div className="space-y-2">
-                                <p className="">
-                                    Better RTP is a plugin that teleports you
-                                    randomly to a place. This might be useful to
-                                    get away from the base, to find more loot,
-                                    and many more possibilities.
-                                </p>
-                                <p className="">
-                                    Remember that it costs 50 DC (ingame
-                                    currency) for a RTP in the overworld, 250 DC
-                                    in the Nether and 100 DC in The End.
-                                </p>
-                                <div className="">
-                                    <p className="">
-                                        Here is the command for the Random
-                                        Teleport,
-                                    </p>
-                                    <p className="">
-                                        <code className="">/rtp</code>: Teleport
-                                        Randomly.
-                                    </p>
-                                    <p className="">
-                                        <code className="">
-                                            /rtp world {"<worldname>"}
-                                        </code>
-                                        : Teleport to another world. (Use
-                                        worldname{" "}
-                                        <code className="">world_nether</code>{" "}
-                                        for Nether and{" "}
-                                        <code className="">world_the_end</code>{" "}
-                                        for The End)
-                                    </p>
-                                </div>
-                                <div className="">
-                                    <p className="">
-                                        Check this video out for more reference.
-                                        Some of commands displayed in the video
-                                        may be disabled in the server due to
-                                        fairplay.
-                                    </p>
-                                    <div className="flex justify-center">
-                                        <iframe
-                                            src="https://www.youtube.com/embed/j-I-QDWXDv4"
-                                            className="my-4 h-[315px] w-[420px] md:h-[560px] md:w-[940px]"
-                                        ></iframe>
-                                    </div>
-                                </div>
-                            </div>
+                        <div className="space-y-2"> 
                             <div id="UltimateClaims">
                                 <p className="py-[15px] text-2xl">UltimateClaims</p>
                             </div>
