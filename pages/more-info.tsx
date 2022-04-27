@@ -12,20 +12,20 @@ const MoreInfo = () => {
                 <link rel="icon" href="/favicon.png" />
             </Head>
 
-            <main className="mx-auto flex flex-1 flex-col justify-center px-5 md:max-w-3xl lg:max-w-6xl">
-                <div className="mx-auto flex w-full flex-1 flex-col items-center justify-center md:max-w-3xl lg:max-w-6xl">              
-                    <h1 className="mt-5 text-4xl font-bold sm:text-6xl lg:-mt-5 lg:text-6xl my-4 lg:my-10">
+            <main className="flex flex-1 flex-col justify-center px-5 md:max-w-3xl lg:max-w-6xl">
+                <div className="flex w-full flex-1 flex-col items-center justify-center md:max-w-3xl lg:max-w-6xl">              
+                    <h1 className="mt-5 text-4xl font-bold sm:text-6xl lg:text-6xl my-4 lg:my-5">
                         More Information
                     </h1>
                 </div> 
-                <div className="mt-10 font-semibold text-white md:text-lg sm:text-lg">
+                <div className="mt-5 font-semibold text-white md:text-lg sm:text-lg">
                     <p className="text-justify">
                         ChonkyServer is a{" "}
                         <span className="italic">cracked</span> Minecraft SMP
                         Server for both Java Edition and Bedrock (Win10,
                         Android, iOS) Edition. This was made in January 2022.
                         The server stays online from{" "}
-                        <span className="font-bold">10AM to 12PM IST</span>.
+                        <span className="font-bold">10AM to 12AM IST</span>.
                         You can play this anytime you want. Feel free to{" "}
                         <span
                             onClick={() => router.push("/contact")}
