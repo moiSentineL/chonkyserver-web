@@ -34,13 +34,13 @@ const Connections = () => {
                     <div className="">
                         <p className="mt-4 text-xl">Bedrock Edition</p>
                         <p className="text-md">
-                            You should have at least MCPE Version 1.17.41 in order to connect.</p>
+                            You should have at least MCPE Version 1.18.0 in order to connect.</p>
                         <p className="text-md">   
                             Version 1.18.2 doesn't work yet.</p>
                         <p className="text-md"> 
-                            For better performance use MCPE Version 1.18.10. Click{" "}
+                            For better performance use MCPE Version 1.18.30. Click{" "}
                             <a
-                                href="https://mcpedl.org/minecraft-pe-1-18-10-apk/"
+                                href="https://mcpedl.org/minecraft-pe-1-18-30-apk/"
                                 className="underline cursor-pointer hover:text-blue-500 hover:underline"
                             >
                                 here
