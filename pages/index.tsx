@@ -15,7 +15,8 @@ const Home = () => {
                     Welcome to ChonkyServer
                 </h1>
                 <div className="pt-2 lg:pt-5 text-2xl font-bold sm:text-4xl lg:-mt-10 lg:text-4xl">
-                   Ranks added, check them out NOW!!
+                   ChonkyServer Building Event is going to be lit!
+                   
                 </div> 
                 <div className="pt-2 text-xl font-bold sm:text-2xl lg:text-2xl">
                     <span
