@@ -15,17 +15,18 @@ const Home = () => {
                     Welcome to ChonkyServer
                 </h1>
                 <div className="pt-2 lg:pt-5 text-2xl font-bold sm:text-4xl lg:-mt-10 lg:text-4xl">
-                   ChonkyServer Building Event is going to be lit!
+                   ChonkyServer is closed.
                    
                 </div> 
                 <div className="pt-2 text-xl font-bold sm:text-2xl lg:text-2xl">
-                    <span
+                    {/* <span
                         onClick={() => router.push("/contact")}
                         className=" underline cursor-pointer hover:text-blue-500 hover:underline"
                     >
                         Join WhatsApp group
-                    </span>
-                    {" "}for updates.
+                    </span> */}
+                    {/* {" "}for updates. */}
+                    I don't have the money to maintain it.
                 </div> 
 
                 <div className="mt-6 flex max-w-4xl flex-wrap items-center justify-around sm:w-full">
